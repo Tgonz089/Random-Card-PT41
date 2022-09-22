@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.suit {
+  width: auto;
+  height: auto;
+  padding: 35px;
+  font-size: 65px;
+}
+.value {
+  text-align: center;
+  padding-top: 40%;
+}
+
+.suit-flipped {
+  -moz-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  /*transform: scale(4, -4);*/
+  float: right;
+  padding: 35px;
+  margin-top: 120px;
+  font-size: 65px;
+}
